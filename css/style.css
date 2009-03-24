@@ -24,7 +24,7 @@ body.grid #grid{
 
 h1 {
 	float: left;
-	background: url(http://looce.com/dl/images/logo.png) top center no-repeat;
+	background: url(..//images/logo.png) top center no-repeat;
 	display: block;
 	text-indent: -9999px;
 	width: 230px;

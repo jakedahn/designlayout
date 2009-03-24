@@ -1,0 +1,195 @@
+/* @override http://looce.com/dl/css/style.css */
+
+/* @override http://looce.com/dl/css/style.css */
+
+/* @override http://looce.com/dl/css/style.css */
+
+body {
+  margin: 0;
+}
+
+body.grid #grid{
+	background: url(../images/grid.png) no-repeat;
+	z-index: 99;
+	width: 969px;
+	height: 578px;
+	margin-top: -604px;
+}
+
+#wrapper {
+	width: 960px;
+	margin: 0 auto;
+	height: 580px;
+}
+
+h1 {
+	float: left;
+	background: url(http://looce.com/dl/images/logo.png) top center no-repeat;
+	display: block;
+	text-indent: -9999px;
+	width: 230px;
+	height: 225px;
+	margin: 90px 36px 0 -36px;
+}
+
+h1 a {
+	display: block;
+	width: 160px;
+	height: 125px;
+}
+
+#header {
+	float: left;
+	width: 413px;
+	height: 220px;
+
+}
+
+#header ul {
+	float: left;
+}
+
+#header li {
+	list-style-type: none;
+}
+
+#nav a{
+	color: #333333;
+}
+
+#nav a:hover {
+	font-weight: bold;
+}
+
+#nav li {
+	border-bottom: 1px solid #444;
+	width: 142px;
+	margin: 0 0 21px -43px;
+	font-size: 24px;
+	padding-bottom: 5px;
+}
+
+#nav li.active {
+	font-weight: bold;
+}
+
+#controls {
+	float: left;
+	z-index: 900;
+	margin-top: 311px;
+	width: 258px;
+	font-size: 16px;
+	text-align: center;
+	background: url(../images/controlerbg.png) top left no-repeat;
+	padding: 65px 10px 10px 195px;
+	margin-left: -54px;
+	height: 48px;
+}
+
+#controls span {
+	cursor: pointer;
+	font-size: 27px;
+	font-family: georgia;
+	font-style: italic;
+	color: #444444;
+	
+}
+
+#controls span:hover {
+	color: #666666;
+}
+
+
+
+#content {
+	width: 373px;
+	height: 590px;
+	float: left;
+}
+
+#contentText {
+	float: left;
+	width: 345px;
+}
+
+#work {
+	float: left;
+	padding: 34px;
+	width: 523px;
+	height: 510px;
+	background: url(../images/bgflanel.png) top center;
+	margin-left: -4px;
+}
+
+#workFrame {
+	background: url(../images/workFrame.png) top left no-repeat;
+	height: 316px;
+	position: absolute;
+	z-index: 10;
+	width: 511px;
+	margin-top: 17px;
+}
+
+.itemContainer {
+	width: 510px;
+	float: left;
+	position: absolute;
+	height: auto;
+	margin-top: 17px;
+}
+
+.item {
+	background: #fff;
+	padding-top: 33px;
+	padding-left: 22px;
+	height: 283px;
+}
+h3 {
+	font-size: 12px;
+}
+
+.explaination {
+	float: left;
+	margin-top: -5px;
+	margin-left: 4px;
+}
+
+.explaination h3 {
+	width: 394px;
+	text-align: right;
+	display: block;
+}
+.item span {
+	font-size: 10px;
+	float: left;	
+}
+
+h3.description {
+	margin-top: -9px;
+}
+
+#footer {
+	font-size: 11px;
+	float: left;
+	clear: both;
+}
+
+#content_header {
+	font-size: 32px;
+	font-weight: bold;
+	float: left;
+	width: 370px;
+}
+
+#gridControl a{
+	color: #333;
+	font-weight: bold;
+}
+
+#gridControl a:hover {
+	color: #888;
+}
+
+h4 {
+	font-size: 40px;
+}

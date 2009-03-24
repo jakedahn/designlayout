@@ -1,4 +1,8 @@
 // JavaScript Document
+
+
+
+
 var navigation = function() {
 	
 	return {
@@ -73,6 +77,7 @@ var navigation = function() {
 											   });
 			HTMLRequest.send();
 			this.current_page = page;
+            console.log(this.current_page);
 		},
 		
 		on_request_handler : function() {
@@ -89,15 +94,17 @@ var navigation = function() {
 		on_success_handler : function(html) {
 			
 			(function() {
+			    
+			    
+			    navigation.content_header_el.empty();
+				navigation.content_header_el.appendText(html[1].getChildren('#content_header').get('text'));
 			
 				navigation.content_el.empty();
 				navigation.content_el.adopt(html[1].getChildren('#contentText').getChildren());
 				
-				var header = $$("#content_header");
 				
-		console.log(navigation.content_header_el.appendText(html[1].getChildren(header).get('text')));
-				navigation.content_header_el.empty();
-				navigation.content_header_el.appendText(html[1].getChildren('#content_header').get('text'));
+		console.log(html[1]);
+
 				
 				navigation.content_el.fade('in');
 				

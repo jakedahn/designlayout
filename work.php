@@ -1,15 +1,4 @@
 <?php include "partials/header.php"; ?>
-    <script type="text/javascript">
-    try {
-    	if(navigation) {
-    		void(0);
-    	}
-    }
-    catch(e) {
-    	window.location.assign("index.php#work");
-    }
-    </script>
-
   </head>
   <body class="home">
     <div id="wrapper">
@@ -21,7 +10,7 @@
       
         <h2 id="content_header">Work</h2>
         <div id="contentText">
-          <p>Work text goes here</p>
+          <p>You can view my selected works to the right.</p>
         </div>
       </div>
       <?php include "partials/work.php"; ?>

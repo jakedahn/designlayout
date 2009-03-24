@@ -1,14 +1,4 @@
 <?php include "partials/header.php"; ?>
-    <script type="text/javascript">
-    try {
-    	if(navigation) {
-    		void(0);
-    	}
-    }
-    catch(e) {
-    	window.location.assign("index.php#contact");
-    }
-    </script>
 
   </head>
   <body class="contact">
@@ -21,7 +11,7 @@
       
         <h2 id="content_header">Contact</h2>
         <div id="contentText">
-          <p>Contact text goes here</p>
+          <p>To contact me please send an email to <a href="mailto:jake@hyperboledesign.com">jake@hyperboledesign.com</a></p>
         </div>
       </div>
       <?php include "partials/work.php"; ?>

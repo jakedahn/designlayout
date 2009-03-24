@@ -12,13 +12,12 @@
     <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
     <script src="js/mootools.core.js" type="text/javascript" charset="utf-8"></script>
     <script src="js/mootools.more.js" type="text/javascript" charset="utf-8"></script>
-    <script src="js/navigation.js" type="text/javascript" charset="utf-8"></script>
     <script src="js/gallery.js" type="text/javascript" charset="utf-8"></script>
     <script src="js/cufon.js" type="text/javascript"></script>
     <script src="fonts/DIN_400-DIN_700-DIN_200.font.js" type="text/javascript" charset="utf-8"></script>
     
     <script type="text/javascript" charset="utf-8">
-      Cufon.replace('#nav a', {
+      Cufon.replace('a', {
         hover: true,  
 			});
 			

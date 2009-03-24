@@ -1,14 +1,4 @@
 <?php include "partials/header.php"; ?>
-    <script type="text/javascript">
-    try {
-    	if(navigation) {
-    		void(0);
-    	}
-    }
-    catch(e) {
-    	window.location.assign("index.php#about");
-    }
-    </script>
 
   </head>
   <body class="about">

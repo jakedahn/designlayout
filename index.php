@@ -1,10 +1,4 @@
-
     <?php include "partials/header.php"; ?>
-    <script type="text/javascript" charset="utf-8">
-      window.addEvent('domready', function() {
-      		navigation.init();
-      	})
-    </script>
 
   </head>
   <body class="home">
